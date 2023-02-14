@@ -8,7 +8,7 @@ CMD_TO_FUNCTIONS = {
     'limit': limit_query,
     'map': map_query,
     'sort': sort_query,
-    'file_name': 'FILE_NAME'
+    'file_name': 'FILE_NAME',
 }
 
 

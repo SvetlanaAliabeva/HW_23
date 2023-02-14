@@ -14,3 +14,4 @@ class RequestScema(Schema):
 
 class BatchRequestSchema(Schema):
     queries = fields.Nested(RequestScema, many=True)
+    file_name = fields.Str(required=True)
