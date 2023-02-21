@@ -27,7 +27,7 @@ def perform_query():
         result = build_query(
             cmd=query['cmd'],
             value=query['value'],
-            file_name=FILE_NAME,
+            file_name=query['file_name'],
             data=result,
         )
 
